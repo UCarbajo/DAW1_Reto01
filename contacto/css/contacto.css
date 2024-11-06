@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'MikeSans';
+  src: url('../fonts/MikeSans-FREE.otf') format('otf');
+  font-family: 'Zombies';
+  src: url('../fonts/Zombies.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    background-color: #f3ede1; 
+    font-family: 'MikeSans', sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding-top: 4%;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+/* Formulario */ 
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-left: 10%;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .contact-form label {
+    color: black;
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: black;
+    ;
+    margin-bottom: 15%;
+    margin-top: 20px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+    width: 250px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffaf1c;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #ffaf1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+/*  */ 
+
+#mapForm{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6%;
+    margin-left:3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+iframe{display: flex;}
