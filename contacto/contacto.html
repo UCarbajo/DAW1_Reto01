@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
+    <header class="headerContainer">
+        <div class="headerBackground">
+            <h1>Contacto</h1>
+        </div>
+    </header>
+    
     <section id="contacto" class="margen">
-        <h2>Contacto</h2>
         <div id="mapForm">
             <div id="map">
                 <h3 id="direccion">C. Licenciado de Poza, 31</h3>
@@ -18,10 +23,10 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
     
             </div>
-            
-            <div class="contact-form">
+       
+            <div class="contact-form" >
               <span class="heading">Contacta con nosotros</span>
-              <form>
+              <form class="form">
                 <label for="name">Nombre:</label>
                 <input type="text" required="">
                 
@@ -31,7 +36,7 @@
                 <label for="email">Correo:</label>
                 <input type="email" id="email" name="email" required="">
                 
-                <label for="message">Message:</label>
+                <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" required=""></textarea>
                 
                 <button type="submit">Enviar</button>
@@ -40,5 +45,31 @@
             
         </div>
     </section>
+
+    <footer>
+        <div class="listaDesordenada">
+            <ul>
+                <div class="listaContacto">
+                    <img src="../Portfolio/Img/imagenFooter_50x50.png" alt="" />
+                    <li>NUMERO TELEFONO</li>
+                </div>
+                <div class="listaContacto">
+                    <img src="../Portfolio/Img/imagenFooter_50x50.png" alt="" />
+                    <li>CORREO ELECTRONICO</li>
+                </div>
+                <div class="listaContacto">
+                    <img src="../Portfolio/Img/imagenFooter_50x50.png" alt="" />
+                    <li>RED SOCIAL</li>
+                </div>
+            </ul>
+        </div>
+        <div class="container_Logo">
+            <div class="logo">
+                <img src="../Portfolio/Img/imagenLogo_130x130.png" alt="">
+                <p>WEBCRAFTERS</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
