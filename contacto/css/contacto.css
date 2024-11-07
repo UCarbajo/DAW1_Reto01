@@ -32,40 +32,35 @@ h2{
 h3{
     font-size: 2em;
     margin-bottom: 8%;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .headerContainer{
-  color: white;
-  width: 100%;
-  text-align: center;
-  padding: 0; 
-  height: 200px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.headerBackground{
-  background-image: url('../../Portfolio/Img/imagenTitulo_1350x200.png');
+  background-image: url('../../contacto/img/pageHeadTurquesa.jpg');
   background-size: cover;
   background-position: center;
-  height: 100%;
+  top: 0;
+  z-index: 999;
   width: 100%;
-  display: flex; 
-  align-items: center; 
+  height: 150px;
+  text-align: center;
+  padding: 0; 
+  display: flex;
+  position: sticky;
+  align-items: center;
   justify-content: center;
   font-size: 180%;
+  border-bottom: 2px;
+  border-color: rgb(0, 0, 0);
 }
+
 
 /* Formulario */ 
 .contact-form {
-  background: rgba(255, 255, 255, 0.3);
+  /*background: rgba(255, 255, 255, 0.3);*/
   background: transparent;
   position: relative;
   padding: 20px;
-  color: white;
   margin-right: 32px;
   margin-bottom: 32px;
   margin-left: 10%;
@@ -96,16 +91,16 @@ input, textarea{
 }
 
 .contact-form label {
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
   
 .contact-form .heading {
   font-size: 24px;
-  color:white;
+  color:rgb(255, 255, 255);
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 15%;
@@ -117,7 +112,6 @@ input, textarea{
 .contact-form form {
   display: flex;
   flex-direction: column;
-    
 }
   
 textarea {
@@ -141,8 +135,8 @@ textarea {
 }
   
 .contact-form button[type="submit"] {
-  background-color: #ffaf1c;
-  color: #fff;
+  background-color: #93DBC8;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -180,7 +174,10 @@ textarea {
   */
 }
 
-iframe{display: flex;}
+iframe{
+  display: flex;
+  filter: drop-shadow(1px 1px 12px #c5e9df);
+}
 
 footer{
   background-color: aquamarine;
