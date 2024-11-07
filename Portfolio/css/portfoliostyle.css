@@ -1,24 +1,35 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     width: 100%;
-    background-image: url('../Img/DALL·E\ 2024-11-07\ 08.48.11\ -\ A\ clean\,\ modern\ background\ image\ with\ a\ white\ base\ color.\ The\ design\ includes\ hexagonal\ patterns\ and\ lines\ similar\ to\ a\ technology\ or\ data\ theme\,\ usin.png');
+    background-image: url('../Img/ImagenFondo.png');
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: rgba(234, 234, 232);
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+    z-index: 10;
 }
 .headerContainer{
     color: #498C93;
     width: 100%;
     text-align: center;
     padding: 0; 
-    height: 200px;
-    position: relative;
+    height: 15em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .headerBackground{
-    background-color: rgba(234, 234, 232, 0.2);
+    background-color: rgba(203, 215, 211, 0.5);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -36,7 +47,7 @@ body{
     justify-content: space-around;
 }
 .informacionWeb{
-    background-color: white;
+    background-color: #E7E7E4;
     color: #498C93;
     width: 30%;
     max-width: 300%;
@@ -71,7 +82,7 @@ body{
 footer{
     background-color: rgba(234, 234, 232, 0.8);
     display: flex;
-    width: 100%;
+    width: auto;
 }
 .listaDesordenada{
     width: 50%;
@@ -98,16 +109,16 @@ footer{
     margin-right: 2%;
 }
 .logo{
-    text-align: center;
-    font-size: 130%;
-    font-weight: bold;
     width: 60%;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    align-items: center;
 }
-.logo img{
-    border-radius: 50%;
-    border: white 3px solid;
-    width: 170px;
-    height: 170px;
+.logoIMG{
+    width: 8em;
+    height: 8em;
+}
+.logoTEXTO{
+    width: 15em;
+    height: 3em;
 }
