@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
 *{
     margin: 0;
     padding: 0;
@@ -5,22 +9,34 @@
     text-decoration: none;
 }
 body{
+<<<<<<< HEAD
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     background-color:#FFFFFF;
+=======
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    background-attachment: fixed;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     }
 .SobreNosotros{
     width: 100%;
     height: 400px;
+<<<<<<< HEAD
     background-repeat: no-repeat;
     background-color: #FFFFFF;
+=======
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     display:flex;
     flex-direction:column;
     align-items: center;
     justify-content: space-evenly;
 }
 h1{
+<<<<<<< HEAD
     margin-top: 50px;
     margin-right:50PX;
     font-family:Arial, Helvetica, sans-serif;
@@ -28,6 +44,13 @@ h1{
     color:#2C3B5D;
     text-shadow: 2px 2px 5px #080808;
     align-items: flex-start;
+=======
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#2C3B5D;
+    text-shadow: 2px 2px 5px #080808;
+    align-items: center;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     }
 h1:hover{
     -webkit-text-fill-color: #69C3C9;
@@ -44,9 +67,15 @@ h1:hover{
 p{
     margin-top: 30px;
     margin-bottom: 30px;
+<<<<<<< HEAD
     width: 60%;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 3em;
+=======
+    width: 85%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     text-align: justify;
     }
 p span{
@@ -54,13 +83,19 @@ p span{
 }
 .contenedor{
     width: 100%;
+<<<<<<< HEAD
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-evenly;
+=======
+    display: flex;
+    justify-content: space-around;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     align-items: center;
     flex-wrap: wrap;
 }
 .integrantes{
+<<<<<<< HEAD
     margin-top: 30px;
     width: 30%;
     
@@ -70,16 +105,36 @@ p span{
     flex-direction: column;
  
 }
+=======
+    width: 27%;
+    margin: 3%;
+    height: 655px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffffc0;
+}
+.integrantes :hover{
+    filter:none;
+
+    }
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
 .fotos{
     margin-top: 20px;
     width: 200px;
     height: 200px;
     background-color: rgb(9, 9, 9);
+<<<<<<< HEAD
     background-size: 200px 200px;
+=======
+    background-size: 250px 250px;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 100px;
     filter:drop-shadow(20px 20px 30px);
+<<<<<<< HEAD
 }
 .integrantes :hover{
     filter:none;
@@ -87,10 +142,18 @@ p span{
     }
 #Unai{
    background-image: url(imagenes/unaifoto.png);
+=======
+    border: 3px solid #2C3B5D;
+}
+
+#Unai{
+   background-image: url(imagenes/output-onlinetools.png);
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
  
 }
 
 #Ana{
+<<<<<<< HEAD
     background-image:  url(imagenes/unaifoto.png);
 }
 #Deiner{
@@ -101,6 +164,175 @@ p span{
 }
 #Leandro{
     background-image:  url(imagenes/unaifoto.png);
+=======
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Deiner{
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Ekaitz{
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Leandro{
+    background-image:  url(imagenes/output-onlinetools.png);
+}
+h3{
+    margin-top: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    -webkit-text-fill-color: #2C3B5D;
+}
+h3:hover{
+    -webkit-text-fill-color: #69C3C9;
+    
+}
+.texto p{
+    width: 90%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.texto {
+    margin: auto;
+}
+
+button {
+    margin: 40px; 
+    padding: 15px 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em; 
+    color: #FFFFFF; 
+    background-color:  #93dbc8;
+    border:#2C3B5D 1px solid;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: block; 
+    justify-content: flex-end;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+    bottom: 0; 
+
+}
+
+button:hover {
+    background-color: #e1f0f1; 
+    transform: scale(1.1); 
+    color: #93dbc8;
+   
+    
+}
+
+button:focus {
+    outline: none; 
+}
+=======
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    background-attachment: fixed;
+    }
+.SobreNosotros{
+    width: 100%;
+    height: 400px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#2C3B5D;
+    text-shadow: 2px 2px 5px #080808;
+    align-items: center;
+    }
+h1:hover{
+    -webkit-text-fill-color: #69C3C9;
+    -webkit-text-stroke-color: rgb(255,255,255);
+    text-shadow: 5px 5px 7px rgb(29, 27, 28);
+} 
+.leyenda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 85%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    }
+p span{
+    color:#69C3C9;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.integrantes{
+    width: 27%;
+    margin: 3%;
+    height: 655px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffffc0;
+}
+.integrantes :hover{
+    filter:none;
+
+    }
+.fotos{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(9, 9, 9);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    filter:drop-shadow(20px 20px 30px);
+    border: 3px solid #2C3B5D;
+}
+
+#Unai{
+   background-image: url(imagenes/output-onlinetools.png);
+ 
+}
+
+#Ana{
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Deiner{
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Ekaitz{
+    background-image: url(imagenes/output-onlinetools.png);
+}
+#Leandro{
+    background-image:  url(imagenes/output-onlinetools.png);
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
 }
 h3{
     margin-top: 20px;
@@ -113,6 +345,7 @@ h3:hover{
     
 }
 .texto p{
+<<<<<<< HEAD
     width: 300px;
     height: 150px;
     font-family:Arial, Helvetica, sans-serif;
@@ -121,16 +354,34 @@ h3:hover{
 }
 button {
     margin-top: 40px; 
+=======
+    width: 90%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+button {
+    margin: 40px; 
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     padding: 15px 24px; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em; 
     color: #FFFFFF; 
+<<<<<<< HEAD
     background-color: #2C3B5D; 
     border: none; 
+=======
+    background-color:  #93dbc8;
+    border:#2C3B5D 1px solid;
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
     border-radius: 5px; 
     cursor: pointer; 
     transition: background-color 0.3s ease, transform 0.3s ease; 
     display: block; 
+<<<<<<< HEAD
     margin-left: auto; 
     margin-right: auto; 
 }
@@ -138,9 +389,29 @@ button {
 button:hover {
     background-color: #69C3C9; 
     transform: scale(1.1); 
+=======
+    justify-content: flex-end;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: auto;
+    bottom: 0; 
+
+}
+
+button:hover {
+    background-color: #e1f0f1; 
+    transform: scale(1.1); 
+    color: #93dbc8;
+   
+    
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274
 }
 
 button:focus {
     outline: none; 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0e3934af49d5301adb070010a16643810bef8563
+>>>>>>> b6557d6062504385e0627ab4b66a44d7d4ce3274

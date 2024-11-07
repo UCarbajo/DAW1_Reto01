@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'MikeSans';
+  src: url('../fonts/MikeSans-FREE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: 'Zombies';
+  src: url('../fonts/Zombies.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+}
+
+html {
+    background-color: #e7e2d7; 
+}
+
+body {
+  width: 100%;
+  font-family: 'MikeSans', sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding-top: 4%;
+}
+
+h3{
+    font-size: 2em;
+    margin-bottom: 8%;
+    color: rgb(255, 255, 255);
+}
+
+.headerContainer{
+  background-image: url('../../contacto/img/pageHeadTurquesa.jpg');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding: 0; 
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  font-size: 180%;
+  border-bottom: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+
+/* Formulario */ 
+.contact-form {
+  /*background: rgba(255, 255, 255, 0.3);*/
+  background: transparent;
+  position: relative;
+  padding: 20px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  margin-left: 10%;
+  /*border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;*/
+  background-size: cover;
+  background-position: center;
+  display: block;
+  }
+
+.contact-form::before {
+  content: ''; /* Required for the pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit; /* Inherit background image from parent */
+  background-size: inherit;
+  background-position: inherit;
+  filter: brightness(50%); /* Lower the brightness of the background */
+  z-index: -1; /* Ensure the pseudo-element stays behind the form content */
+}  
+
+input, textarea{
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form label {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+  
+.contact-form .heading {
+  font-size: 24px;
+  color:rgb(255, 255, 255);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15%;
+  margin-top: 20px;
+  font-weight: bold;
+  display: block;
+}
+  
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+  
+textarea {
+  resize: none;
+  height: 100px;
+  width: 250px;
+}
+  
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+  
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px white;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+  
+.contact-form button[type="submit"] {
+  background-color: #93DBC8;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+  
+/*  */ 
+
+#mapForm{
+  background-image: url(../img/pagebg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-bottom: 5%;
+  padding-top: 3vw;;
+}
+
+#map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6%;
+  margin-left:3%;
+  padding: 2%;
+  /*
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px; 
+  */
+}
+
+iframe{
+  display: flex;
+  filter: drop-shadow(1px 1px 12px #c5e9df);
+}
+
+footer{
+  background-color: aquamarine;
+  display: flex;
+  width: 100%;
+}
+
+.listaDesordenada{
+  width: 50%;
+}
+
+.container_Logo{
+  width: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 2%;
+}
+
+.logo{
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.listaContacto{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.listaContacto li{
+  margin-left: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
