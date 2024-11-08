@@ -8,7 +8,22 @@
 </head>
 <body>
     <header class="headerContainer">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Servicios</a>
+              <a href="../Portfolio/Portfolio.html">Portfolio</a>
+              <a href="../SobreNosotros/proyecto.html">Nosotros</a>
+              <a href="../contacto/contacto.html">Contacto</a>
+            </div>
+          </div>
+        <span style="cursor:pointer" onclick="openNav()">&#9776; </span>
         <h1>Contacto</h1>
+            <div class="logoHeader">
+                <a href="../">
+                    <img src="./img/LOGO_IconWhite.png">
+                </a>
+            </div>
     </header>
     
     <section id="contacto" class="margen">
@@ -62,12 +77,24 @@
             </ul>
         </div>
         <div class="container_Logo">
-            <div class="logo">
-                <img src="../Portfolio/Img/imagenLogo_130x130.png" alt="">
-                <p>WEBCRAFTERS</p>
+            <div class="logoFooter">
+                <img src="../contacto/img/LOGO_IconWhite.png" alt="">
+                <p style="color: white;">WEBCRAFTERS</p>
             </div>
         </div>
     </footer>
+
+    <!-- JS -->
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 
 </body>
 </html>
