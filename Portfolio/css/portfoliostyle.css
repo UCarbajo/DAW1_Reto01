@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url('../Img/pagebg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.headerContainer{
+    color: #FF8C00;
+    width: 100%;
+    text-align: center;
+    padding: 0; 
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerBackground{
+    background-color: #050A1E;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 180%;
+}
+.container_Portfolio{
+    display: flex;
+    margin: 3vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.informacionWeb{
+    background-color: #050A1E;
+    color: white;
+    width: 30%;
+    max-width: 300%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1vw 0;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: #FF8C00;
+    transition: transform 0.3s ease;
+
+}
+.informacionWeb h2{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.informacionWeb p{
+    padding: 0.5em;
+    font-size: larger;
+}
+.informacionWeb img{
+    width: 100%;
+    height: auto;
+    border-radius: 3% 3% 0 0;
+}
+.informacionWeb:hover{
+    transform: scale(1.05); 
+    z-index: 1;
+}
+footer{
+    background-color: #050A1E;
+    display: flex;
+    width: auto;
+}
+.listaDesordenada{
+    width: 50%;
+}
+.listaContacto{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.listaContacto li{
+    color: white;
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.container_Logo{
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2%;
+}
+.logo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoIMG{
+    width: 8em;
+    height: 8em;
+}
+.logoTEXTO{
+    width: 15em;
+    height: 3em;
+}
