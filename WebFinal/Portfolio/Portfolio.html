@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="css/portfoliostyle.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="divHeader">
+        <a href="../Inicio.html" class="logo">
+            <img id="logoIMG1" src="Img/Logo_V3.png" alt="Logo de la página">
+            <img id="logoIMG2" src="Img/ImagenTextoWEBCRAFTERS.PNG" alt="Texto empresa">
+        </a>
+        </div>
+        <div class="divHeader">
+        <nav class="nav-center">
+            <a href="../Inicio.html" class="nav-item">Servicios</a>
+            <a href="Portfolio.html" class="nav-item">Portfolio</a>
+            <a href="../SobreNosotros/proyecto.html" class="nav-item">Sobre Nosotros</a>
+        </nav>
+        </div>
+        <div class="divHeader moverHeader">
+        <a href="../contacto/contacto.html" class="contact-button">Contacto</a>
+        </div>
+    </header>
+    <script>
+        const header = document.querySelector('header');
+
+        function checkScroll() {
+            if (window.scrollY > 50) { 
+                header.classList.add('scrolled'); 
+            } else {
+                header.classList.remove('scrolled'); 
+            }
+        }
+        window.addEventListener('scroll', checkScroll);
+    </script>
+    <main>
+        <div class="container_Portfolio">
+            <a class="informacionWeb" href="../Inicio.html">
+                <img src="Img/PaginaWebcrafters.PNG"  alt="">
+                <h2>WebCrafters</h2>
+                <p>Objetivo del Proyecto: Publicitar la empresa.</p> 
+                <p>Tecnologías Utilizadas: JavaScript, HTML y CSS</p> 
+                <p>Funciones Principales: D</p>
+            </a>
+            
+            <a class="informacionWeb" href="../contacto/contacto.html">
+                <img src="Img/Proximamente.png" alt="">
+                <h2>Tu futura pagina web</h2>
+                <p>Tu futuro digital está a solo un clic de distancia.</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="listaDesordenada">
+            <ul>
+                <div class="listaContacto">
+                    <img src="Img/ImagenTelefono.png" alt="" />
+                    <li>NUMERO TELEFONO</li>
+                </div>
+                <div class="listaContacto">
+                    <img src="Img/ImagenCorreo.png" alt="" />
+                    <li>CORREO ELECTRONICO</li>
+                </div>
+                <div class="listaContacto">
+                    <img src="Img/ImagenSocial.png" alt="" />
+                    <li>RED SOCIAL</li>
+                </div>
+            </ul>
+        </div>
+        <div class="container_Logo">
+            <div class="logoFootler">
+                <img class="logoIMG" src="Img/Logo_V3.png" alt=""/>
+                <img class="logoTEXTO" src="Img/ImagenTextoWEBCRAFTERS.PNG" alt=""/>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

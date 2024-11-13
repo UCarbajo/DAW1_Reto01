@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SobreNosotros</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="divHeader">
+        <a href="../Inicio.html" class="logo">
+            <img id="logoIMG1" src="imagenes/Logo_V3.png" alt="Logo de la página">
+            <img id="logoIMG2" src="imagenes/ImagenTextoWEBCRAFTERS.PNG" alt="Texto empresa">
+        </a>
+        </div>
+        <div class="divHeader">
+        <nav class="nav-center">
+            <a href="../Inicio.html" class="nav-item">Servicios</a>
+            <a href="../Portfolio/Portfolio.html" class="nav-item">Portfolio</a>
+            <a href="../SobreNosotros/proyecto.html" class="nav-item">Sobre Nosotros</a>
+        </nav>
+        </div>
+        <div class="divHeader moverHeader">
+        <a href="../contacto/contacto.html" class="contact-button">Contacto</a>
+        </div>
+    </header>
+    <script>
+        const header = document.querySelector('header');
+
+        function checkScroll() {
+            if (window.scrollY > 50) { 
+                header.classList.add('scrolled'); 
+            } else {
+                header.classList.remove('scrolled'); 
+            }
+        }
+        window.addEventListener('scroll', checkScroll);
+    </script>
+
+    <!--primera caja-->
+    <section class="leyenda"> 
+        <p>En <span class="primera"><strong>WEBCRAFTERS</strong></span>, somos un equipo de profesionales apasionados por la tecnología y la creatividad. 
+        <p>Nuestros desarrolladores, diseñadores y expertos en SEO aportan sus conocimientos y experiencia para crear soluciones innovadoras y efectivas.</p> 
+        <p>Cada integrante es un especialista en su campo, comprometido con ofrecer lo mejor en cada proyecto y ayudar a nuestros clientes a alcanzar sus metas en el mundo digital.</p>
+            
+    </section>
+    <!--segunda caja-->
+    <div class="Conocer">
+    <h2><strong>CONOCE AL EQUIPO</strong></h2>
+    <img src="imagenes/ImagenTextoWEBCRAFTERS.PNG" alt="">
+    </div>
+    <div class="contenedor">
+        <section class="integrantes"> 
+            <article class="fotos" id="Unai"></article>
+            <article class="nombre">
+                <h3>Unai Carbajo</h3>
+            </article>
+            <article class="texto">
+                <p>Experto en atención al cliente, actualmente en formación en desarrollo web. Domina Java, HTML, CSS y GitHub, y disfruta enfrentarse a nuevos desafíos.</p>
+            </article>
+            <button onclick="location.href='Curriculum/Curriculum Unai.pdf'">Curriculum</button>
+        </section>
+
+    <section class="integrantes"> 
+        <article class="fotos" id="Ana"></article>
+        <article class="nombre">
+            <h3>Ana Peñaranda</h3>
+        </article>
+        <article class="texto">
+            <p> Desarrollador web en formación, con experiencia en liderazgo y en la gestión de equipos. </p>
+        </article>
+        <button onclick="location.href='Curriculum/Currículum Ana.pdf'">Curriculum</button>
+    </section>
+
+    <section class="integrantes"> 
+        <article class="fotos" id="Deiner"></article>
+        <article class="nombre">
+            <h3>Deiner Uyuquipa</h3>
+        </article>
+        <article class="texto">
+            <p>Desarrollador de aplicaciones web con enfoque en la creación de soluciones prácticas y atractivas para el usuario. Con interés en el diseño visual, añade un toque estético a sus proyectos para mejorar la experiencia del usuario. </p>
+        </article>
+        <button onclick="location.href='Curriculum/Currículum Deiner.pdf'">Curriculum</button>
+    </section>
+
+    <section class="integrantes"> 
+        <article class="fotos" id="Ekaitz"></article>
+        <article class="nombre">
+            <h3>Ekaitz Larrabeiti</h3>
+        </article>
+        <article class="texto">
+            <p> Técnico en administración de sistemas y desarrollo de aplicaciones web, con experiencia en automatización de tareas mediante UiPath. Domina HTML, CSS y Java, y es competente en la gestión de incidencias y administración de bases de datos.</p>
+        </article>
+        <button onclick="location.href='Curriculum/Curriculum Ekaitz Larrabeiti.pdf'">Curriculum</button>
+    </section>
+
+    <section class="integrantes"> 
+        <article class="fotos" id="Leandro"></article>
+        <article class="nombre">
+            <h3>Leandro Velez</h3>
+        </article>
+        <article class="texto">
+            <p>Actualmente estudia desarrollo de aplicaciones web, destacando por su adaptabilidad y habilidades de comunicación. Maneja herramientas de oficina y tiene un enfoque colaborativo.</p>
+        </article>
+        <button onclick="location.href='Curriculum/Curriculum Leandro.pdf'">Curriculum</button>
+    </section>
+ </div>
+ <footer>
+    <div class="listaDesordenada">
+        <ul>
+            <div class="listaContacto">
+                <img src="imagenes/ImagenTelefono.png" alt="" />
+                <li>NUMERO TELEFONO</li>
+            </div>
+            <div class="listaContacto">
+                <img src="imagenes/ImagenCorreo.png" alt="" />
+                <li>CORREO ELECTRONICO</li>
+            </div>
+            <div class="listaContacto">
+                <img src="imagenes/ImagenSocial.png" alt="" />
+                <li>RED SOCIAL</li>
+            </div>
+        </ul>
+    </div>
+    <div class="container_Logo">
+        <div class="logoFootler">
+            <img class="logoIMG" src="imagenes/Logo_V3.png" alt=""/>
+            <img class="logoTEXTO" src="imagenes/ImagenTextoWEBCRAFTERS.PNG" alt=""/>
+        </div>
+    </div>
+    </footer>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Crafters</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="header">
+        <div class="divHeader">
+        <a href="Inicio.html" class="logo">
+            <img id="logoIMG1" src="imagen/Logo_V3.png" alt="Logo de la página">
+            <img id="logoIMG2" src="imagen/ImagenTextoWEBCRAFTERS.PNG" alt="Texto empresa">
+        </a>
+        </div>
+        <div class="divHeader">
+        <nav class="nav-center">
+            <a href="Inicio.html" class="nav-item">Servicios</a>
+            <a href="Portfolio/Portfolio.html" class="nav-item">Portfolio</a>
+            <a href="SobreNosotros/proyecto.html" class="nav-item">Sobre Nosotros</a>
+        </nav>
+        </div>
+        <div class="divHeader moverHeader">
+        <a href="contacto/contacto.html" class="contact-button">Contacto</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="fondo">
+            <video src="imagen/VideoFondo.mp4" autoplay loop class="img1"></video>
+            <div>
+             <img src="imagen/imagen1.jpeg" alt="" class="img2">
+            </div>
+            <div class="titulo">
+                <h1>Tu éxito en línea, hecho a medida.</h1>
+                <p>En WebCrafters nos especializamos en el desarrollo de sitios web y aplicaciones a medida. Ofrecemos soluciones personalizadas, optimizadas para cada dispositivo y diseñadas para mejorar la experiencia del usuario, atraer visitas y fortalecer tu presencia en línea.</p>
+                <a href="#container-info" class="links">Servicios</a>
+            </div>
+        </section>
+    </main>
+
+
+    <section id="container-info">
+        <div class="informacion">
+            <h1>Somos Especialistas en...</h1>
+        </div>
+        <div class="info-H">
+            <div class="info1">
+              <img src="imagen/ordenador.png" alt="">
+              <h3>Desarrollo web</h3>
+              <p> 
+                Creamos sitios web personalizados y adaptados a las necesidades de tu negocio, priorizando flexibilidad y rendimiento. 
+              </p>
+    
+            </div>
+    
+            <div class="info1">
+              <img src="imagen/pulgar2.png" alt="">
+              <h3>Diseño UX/UI</h3>
+              <p> 
+                Diseñamos interfaces intuitivas y atractivas, enfocadas en usabilidad y navegación fluida.
+              </p>
+    
+            </div>
+            <div class="info1">
+              <img src="imagen/cohetenuevo1.png" alt="">
+              <h3>Posicionamiento Web</h3>
+              <p> 
+                Mejora la visibilidad de tu sitio con nuestro SEO. Optimizamos tu página para atraer tráfico de calidad y mejorar tu ranking.
+              </p>
+    
+            </div>
+            <div class="info1">
+                <img src="imagen/camara.png" alt="">
+                <h3>Diseño y Edición</h3>
+                <p> 
+                    Transformamos tu contenido visual con diseño creativo y edición de calidad. Creamos gráficos personalizados, optimizamos fotos e imágenes para reflejar tu marca.
+                </p>
+      
+              </div>
+    
+          </div>
+    </section>
+
+     <script>
+        const header = document.querySelector('header');
+
+        function checkScroll() {
+            if (window.scrollY > 50) { 
+                header.classList.add('scrolled'); 
+            } else {
+                header.classList.remove('scrolled'); 
+            }
+        }
+        window.addEventListener('scroll', checkScroll);
+    </script>
+
+    
+<section class="general">
+    <div class="general-1">
+        <h2>Conoce al equipo detrás de WEBCRAFTERS</h2>
+        <p>
+            Nuestro equipo está formado por los mejores expertos en diversas áreas, desde analistas y líderes de equipo, hasta especialistas en bases de datos, así como en tecnologías como Java, HTML y CSS.
+        </p>
+        <a href="SobreNosotros/proyecto.html" class="btn-1">Saber más</a>
+    </div>
+    <div class="general-1">
+        <img src="imagen/FotoEquipo.png" alt="">
+    </div>
+</section>
+
+<section class="general">
+    <div class="general-1">
+        <img src="imagen/FotoContacto.png" alt="">
+    </div>
+    <div class="general-1">
+        <h2>Listo para construir tu página ideal?</h2>
+        <p>
+            No dudes en contactar con nuestro equipo para para cualquier duda, consulta o presupuesto. Te contestaremos lo más rápido posible.
+        </p>
+        <a href="contacto/contacto.html" class="btn-1">Contacto</a>
+    </div>
+</section>
+
+<footer>
+    <div class="listaDesordenada">
+        <ul>
+            <div class="listaContacto">
+                <img src="imagen/ImagenTelefono.png" alt="" />
+                <li>NUMERO TELEFONO</li>
+            </div>
+            <div class="listaContacto">
+                <img src="imagen/ImagenCorreo.png" alt="" />
+                <li>CORREO ELECTRONICO</li>
+            </div>
+            <div class="listaContacto">
+                <img src="imagen/ImagenSocial.png" alt="" />
+                <li>RED SOCIAL</li>
+            </div>
+        </ul>
+    </div>
+    <div class="container_Logo">
+        <div class="logoFootler">
+            <img class="logoIMG" src="imagen/Logo_V3.png" alt=""/>
+            <img class="logoTEXTO" src="imagen/ImagenTextoWEBCRAFTERS.PNG" alt=""/>
+        </div>
+    </div>
+    </footer>
+
